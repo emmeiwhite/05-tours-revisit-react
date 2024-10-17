@@ -47,6 +47,8 @@ const App = () => {
 
   return (
     <main className="container">
+      <h1 className="title">Tours List</h1>
+      <div className="title-underline"></div>
       <ToursList
         tours={tours}
         removeTour={removeTour}
