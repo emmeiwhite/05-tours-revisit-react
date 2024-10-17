@@ -16,12 +16,12 @@ export default function Tour({ id, info, image, name, price, removeTour }) {
           {showMore ? (
             <p>
               {' '}
-              {info.substr(0, 100)} ... &nbsp; <span className="">Show More</span>{' '}
+              {info.substr(0, 100)} ... &nbsp; <span className="show-more-less">Show More</span>{' '}
             </p>
           ) : (
             <p>
               {' '}
-              {info} <span>Show More</span>{' '}
+              {info} <span className="show-more-less">Show Less</span>{' '}
             </p>
           )}
         </p>
